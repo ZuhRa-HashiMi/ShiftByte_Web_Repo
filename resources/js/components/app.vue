@@ -1,20 +1,14 @@
 <template>
-    <h1>
-        Hi vue 3
-    </h1>
-    <h2>
-        Hello Zuhra
-    </h2>
-    <h2>
-        Hello Zuhra
-    </h2>
-    <h6>
-        hhhjjjhhh
-    </h6>
-    <h3>
-        heellof f
-    </h3>
+<h1>
+    Hi vue 3
+    my name is zuhra
+    my name
+</h1>
+<div class="alert alert-primary" role="alert">
+    A simple primary alert—check it out!
+</div>
 </template>
+
 <script>
-    export default{};
+export default {};
 </script>
