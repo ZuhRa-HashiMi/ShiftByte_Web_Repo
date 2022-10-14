@@ -8,12 +8,18 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
         
     </head>
     <body class="antialiased">
-       <h1>wellcome to laravel</h1>
+
+
+   
        <div id="example"></div>
        <script src="{{ mix('js/app.js') }}"></script>
+
+     
     </body>
 </html>

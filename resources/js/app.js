@@ -4,18 +4,19 @@
  * building robust, powerful web applications using Vue and Laravel.
  */
 
-require('./bootstrap');
+// require('');
+// import '~bootstrap/scss/bootstrap.scss';
 import { createApp } from 'vue';
-import app from './components/app.vue';
+import Navbar from './components/Navbar.vue';
+createApp(Navbar).mount("#example");
 
-createApp(app).mount("#example");
 
 // window.Vue = require('vue');
 
 // /**
 //  * The following block of code may be used to automatically register your
 //  * Vue components. It will recursively scan this directory for the Vue
-//  * components and automatically register them with their "basename".
+//  * components and automatoically register them with their "basename".
 //  *
 //  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
 //  */
