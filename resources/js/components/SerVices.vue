@@ -1,5 +1,5 @@
 <template>
-<section id="section-features" class="mt-5">
+<section id="section-hero">
     <h2 class="display-4 text-center ">Services</h2>
         <h6 class="text-center">Creating and deploying software that ensure growth in business.</h6>
     <div class="row">

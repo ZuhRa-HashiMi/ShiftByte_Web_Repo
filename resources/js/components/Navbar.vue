@@ -1,30 +1,29 @@
 <template>
-<nav class="navbar navbar-expand-sm my-color navbar-dark fixed-top">
-    <a href="#" class="navbar-brand">
-        <img src="../assets/shift.jpg" alt="" style="width: 80px; ">
-    </a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapseu" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="#">Logo</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Partners</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Insights</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Career</a></li>
-        </ul>
-
-    </div>
-   
-</nav>
+    <header>
+        <!-- Navbar section -->
+        <div class="humberger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <div id="navbar" class="navbar">
+            <div class="logo">
+                <!-- <a href="index.html"><img src="../assets/image.png/shift.png" alt="page logo" /></a> -->
+            </div>
+            <ul>
+                <li class="links home-page"><a href="index.html">Home</a></li>
+                <li class="links"><a href="about.html">About</a></li>
+                <li class="links"><a href="#">Services</a></li>
+                <li class="links"><a href="#">Partners</a></li>
+                <li class="links"><a href="#">Insights</a></li>
+                <li class="links last-link"><a href="#">Creer</a></li>
+                <li class="links focused"><a href="#">About Us</a></li>
+            </ul>
+        </div>
+    </header>
 <jumBotron />
 <SerVices />
 <Footer />
-
 </template>
 
 <script>
@@ -33,16 +32,14 @@ import SerVices from "./SerVices.vue"
 import Footer from "./Footer.vue"
 export default {
     components: {
-    jumBotron,
-    SerVices,
-    Footer
-},
+        jumBotron,
+        SerVices,
+        Footer
+    },
 
 };
 </script>
 
 <style>
-.my-color {
-    background: black;
-}
+@import '../assets/style.css';
 </style>
